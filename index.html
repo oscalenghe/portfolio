@@ -9,39 +9,43 @@
 
 </head>
 <body>
+    <section>
     <nav id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Work</a>
-        <a href="#">Contact</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
     </nav>
     <span id="Navicon" onclick="openNav()">&#9776; </span>
-    <header>
-<h1>Hi, I'm <span a id="about">Olivia</span>!</h1>
+  
+    <img class ="avatar-img" src="assets/images/portfolio-avatar.png" alt="Avatar" style="float:right;">  
+    </section>
+
+<section>
+   <header>
+    <h1>Hi, I'm <span>Olivia</span>!</h1>
     </header>
     <p>I am a student currently studying Full Stack Web Development through UCONN Engineering.</p>
 <section>    
-    </div>
-    <h1>About Me</h1>
+    <h1 id="about">About Me</h1>
     <p>My name is Olivia Scalenghe and I am currently enrolled in UCONN's Coding Bootcamp! I am hoping to one day work in the video game industry as that is where my passion lies.
-    I spend most of my free time playing video games such as VALORANT and Overwatch. <b>Scroll down to see some of my work, or click the icons below to connect with me through social media!</b></p>
-</section>
-<section>
-    <h1>Work</h1>
-    <p>Check back soon for my updated projects!</p>
-</section>
-<section>
-    <h1>Contact Me</h1>
-    <form action="action_page.php">
-    <label for="fname">Full Name</label>
-    <input type="text" id="name" name="firstname" placeholder="Full Name">
+    I spend most of my free time playing video games such as VALORANT and Overwatch. <b>Scroll down to see some of my work, or to discover how to connect with me!</b></p>
+    </section>
+</section> 
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
-    <input type="submit" value="Submit">
+   
+<section>
+    <h1 id="work">Work</h1>
+    </section>
 
-    </form>
+
+
+
+<section>
+    <h1 id="contact">Connect With Me!</h1>
 </section>
+
+
 </body>
 <script src="script.js"></script>
 </html>
