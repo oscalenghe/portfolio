@@ -1,4 +1,4 @@
-
+/* stylizes the body */
 body {
     background-color: rgb(246, 242, 247);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,6 +9,7 @@ body {
   
   }
 
+/* stylizes the navigation bar */
 .sidenav {
     height: 100%; 
     width: 0; 
@@ -22,7 +23,7 @@ body {
     transition: 0.5s; 
   }
   
-
+/* stylizes the navigation bar links */
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -35,11 +36,12 @@ body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
-
+/* stylizes the navigation bar links ON HOVER */
   .sidenav a:hover {
     color:#a07489;
   }
   
+/* stylizes the navigation bar close button */
   .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -48,7 +50,7 @@ body {
     margin-left: 50px;
   }
 
- 
+ /* stylizes the navigation bar icon */
     #Navicon {
       position: fixed;
     font-size: 25px;
@@ -61,10 +63,12 @@ body {
     }
 
 
+/* stylizes the navigation bar icon ON HOVER */
 #Navicon:hover {
     cursor: pointer;
 }
 
+/* stylizes the avatar image */
 .avatar-img {
   height: 273px;
   width: 273px;
@@ -72,6 +76,7 @@ body {
   animation: fadeInAnimation2 ease 5s;
 }
 
+/* stylizes all headers */
 h1 {
 color: #dda4bf;
 font-size: 3rem;
@@ -101,14 +106,14 @@ animation: fadeInAnimation ease 3s;
     animation-fill-mode: forwards;
 }
 
-
+/* stylizes when you hover over "Olivia" */
 header  h1 span:hover {
    text-decoration-line: underline;
    text-decoration-style: dashed;
     cursor: pointer;
 }
 
-
+/* stylizes the paragraphs */
 p {
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 margin: 10px 400px 200px 400px;
@@ -118,23 +123,26 @@ animation: fadeInAnimation2 ease 5s;
 animation-fill-mode: forwards;
 }
 
+/* stylizes links/images to my works */
 #works {
   padding-left: 500px;
 }
-
+/* stylizes links/images to my work links */
+#works:hover {
+  opacity:50%;
+}
+/* stylizes links/images to my social media links */
 #socialmedia {
  margin: 0px 10px  0px 500px;
 
 }
 
+/* stylizes links/images to my social media links on hover*/
 #socialmedia:hover {
   opacity:50%;
 }
 
-#works:hover {
-  opacity:50%;
-}
-
+/* adds animation for when the page loads*/
 @keyframes fadeInAnimation {
   0% {
       opacity: 0;
@@ -153,7 +161,7 @@ animation-fill-mode: forwards;
    }
    
 }
-
+/*adds responsive design*/
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-direction:column;
