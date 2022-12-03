@@ -53,7 +53,7 @@ body {
  /* stylizes the navigation bar icon */
     #Navicon {
       position: fixed;
-    font-size: 25px;
+    font-size: 35px;
     color: #dda4bf;
     animation: fadeInAnimation ease 3s;
 
